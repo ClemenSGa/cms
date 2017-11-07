@@ -1,7 +1,3 @@
-@function pem($px, $base: 16) {
-  @return ($px / $base) + em;
-}
-
 *, *:after, *:before {
   box-sizing: border-box;
 }
@@ -60,17 +56,4 @@ html, body, button {
       @content
     }
   }
-}
-@mixin full-height-parent-of-floats {
-  // http://stackoverflow.com/questions/9446988/expanding-the-parent-container-with-100-height-to-account-for-floated-content
-  min-height: 100%;
-  overflow-y: hidden;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
 }

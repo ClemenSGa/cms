@@ -4,7 +4,7 @@
 
 .max-width-container {
   width: 100%;
-  padding: 0 $padding;
+  padding: 0;
 }
 
 .container {
@@ -24,7 +24,7 @@
 
 [class*='col-'] {
   float: left;
-  padding-right: $padding;
+  padding-right: 0;
   .grid &:last-of-type {
     padding-right: 0;
   }

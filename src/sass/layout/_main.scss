@@ -1,0 +1,64 @@
+#leistungen {
+    padding: 2.5em 0em 2em 0.5em;
+    h1{
+        font-size: 2em;
+        color: $myblue;
+        padding-bottom: 1em;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        li{
+            background-color: $mygrey;
+            padding: 1.3em;
+            border-radius: 0.8em;
+        }
+        a{
+            text-decoration: none;
+            color: $myblue;
+            text-align: center;
+        }
+        p{
+            font-size: 1.4em;
+        }
+    }
+}
+
+#news{
+    h1{
+        font-size: 2em;
+        color: $myblue;
+        padding-bottom: 1em;
+        padding-left: 0.4em;
+    }
+    article{
+        height: 5em;
+        margin-left: 0.6em;
+        margin-right: 0.6em;
+        background-color: $mygrey;
+    }
+}
+
+#referenzen{
+    h1{
+        font-size: 2em;
+        color: $myblue;
+        padding-top: 1em;
+        padding-left: 0.4em;
+    }
+    article{
+        height: 8em;
+        margin-left: 0.6em;
+    }
+}
+
+footer{
+    height: 6em;
+    background-color: $myblue;
+}
+
+img{
+    height: 18em;
+    width: 18em;
+    padding-top: 2em;
+}
