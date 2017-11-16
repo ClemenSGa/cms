@@ -4,6 +4,7 @@ production
 # ftpconfig.js
 src/style.css
 src/js/main.js
+wordpress/wp-config.php
 
 # gulp
 *.log
