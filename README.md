@@ -1,5 +1,3 @@
-#Clemi ist ein noob
-
 # jsidiots-gulpfile
 ## A gulpfile.js for regular webdevelopers
 
