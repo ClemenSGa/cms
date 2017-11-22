@@ -8,12 +8,12 @@ header {
     justify-content: space-between;
 
     nav{
-        padding-top: 0.8em;
          ul {
         display: flex;
     }
     li{
         padding-right: 0.5em;
+        line-height: 50px;
         &:last-of-type{
             padding: 0;
         }
@@ -25,7 +25,47 @@ header {
             color: $myblue;
             border-bottom: 3px $myblue solid;
         }
+    }
+    label{
+        margin: 0 40px 0 0;
+        font-size: 50px;
+        line-height: 50px;
+        display: none;
+    }
+    #toggle{
+        display: none;
+    }
+}
+}
+
+@media(max-width: 760px){
+    header{
+        h1{
+            font-size: 1.5em;
+            width: 100px;
+        }
+        nav{
+            width: 100%;
+    label{
+        text-align: right;
+        display: block;
+        cursor: pointer;
+    }
+    .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+        padding-top: 20px;
+    }
+    .menu li{
+        display: block;
+        border-bottom: 1px solid $myblue;
+        margin: 0;
+    }
+    #toggle:checked + .menu{
+        display: block;
 
     }
+}
 }
 }
