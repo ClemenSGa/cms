@@ -6,7 +6,7 @@
         article {
         color: $myblue;
         font-size: 60px;
-        padding-left: 12em;
+        padding-left: 60%;
         padding-top: 1em;
 
             h1{
@@ -19,7 +19,7 @@
         button {
             font-family: 'Slabo 13px', serif;
             font-size: 2em;
-            margin-left: 18em;
+            margin-left: 60%;
             margin-top: 1em;
             background-color: $myblue;
             color: white;
@@ -33,4 +33,45 @@
                 background-color: #007FFF;
             }
         }
+}
+
+@media (max-width: 1200px) {
+    #hero{
+        article{
+            font-size: 40px;
+            padding-right: 5%;
+        }
+
+        button {
+            font-size: 1.5em;
+            margin-right: 5%;
+            width: 9em;
+        }
+    }
+}
+
+@media (max-width: 760px){
+    #hero{
+        height: 20em;
+        article{
+            font-size: 30px;
+        }
+        button{
+            font-size: 1em;
+            width: 7em;
+            height: 3em;
+        }
+    }
+}
+
+@media(max-width: 450px){
+    #hero{
+        height: 15em;
+    article{
+        font-size: 20px;
+    }
+    button{
+        font-size: 0.8em;
+    }
+}
 }
