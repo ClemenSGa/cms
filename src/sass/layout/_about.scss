@@ -1,0 +1,30 @@
+#about{
+      padding: 0 0em 2em 0em;
+      h1{
+          font-size: 1.5em;
+          color: $myblue;
+          padding: 2em 0 0 2em;
+          border-top: 5px solid $myblue;
+      }
+
+     #content{
+       display: flex;
+       flex-wrap: wrap;
+
+      img{
+        padding: 1.5em 0 0 2em;
+        height: 10em;
+        width: 10em;
+      }
+
+
+      p{
+        padding: 1.5em;
+        margin: 3em 2em 30vh 2em;
+        background-color: $mygrey;
+        border-radius: 0.8em;
+        font-size: 0.8em;
+        max-width: 55em;
+        }
+    }
+}
